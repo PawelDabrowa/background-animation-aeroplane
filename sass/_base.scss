@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    background-color: aqua;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.anim {
+    position: relative;
+
+    &-bg__cloud {
+        position: absolute;
+        width: 20%;
+
+        &:nth-child(1) {
+            left: 20%;
+            top: 30%;
+            z-index: 1;
+        }
+
+        &:nth-child(2) {
+            left: 50%;
+            top: 60%;
+        }
+
+        &:nth-child(3) {
+            left: 29%;
+            top: 56%;
+        }
+
+        &:nth-child(4) {
+            left: 70%;
+            top: 39%;
+        }
+
+        &:nth-child(5) {
+            left: 20%;
+            top: 35%;
+            z-index: 1;
+        }
+
+        &:nth-child(6) {
+            left: 33%;
+            top: 44%;
+        }
+    }
+
+    &-bg__aeroplane {
+        width: 15%;
+        top: 50%;
+        left: 0%;
+    }
+}
